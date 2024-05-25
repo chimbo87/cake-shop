@@ -1,0 +1,92 @@
+#footerPage{
+    padding-top: 20px;
+}
+#FooterCardA{
+    background-image: linear-gradient(to right, #a12ea1, #e593e5);
+    padding: 50px 5px;
+}
+#FooterCardA h4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fcbc1a;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+#FooterCardA h4 span{
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 4pc;
+    height: 4px;
+    background-image: linear-gradient(to right, #d2aaf4, #fcbc1a,  #f4beaa);
+    display: block;
+  
+}
+#FooterCardA p{
+    margin-top: 25px;
+    margin-left: 20px;
+   color: #faebd7;
+   font-weight: 400;
+  
+}
+#FooterCardB{
+  
+    padding: 50px 5px;
+}
+#FooterCardB h4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #fcbc1a;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+#FooterCardB h4 span{
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 4pc;
+    height: 4px;
+    background-image: linear-gradient(to right, #ad58f8, #f4beaa);
+    display: block;
+  
+}
+#FooterCardB p{
+    margin-top: 25px;
+    margin-left: 20px;
+   color: #faebd7;
+   font-weight: 400;
+  
+}
+
+#FooterCardBIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+#FooterCardBI{
+    margin: 0px 10px;
+    color: #a12ea1;
+    font-size: 22px;
+    cursor: pointer;
+}
+#FooterCardBI:hover{
+    color: #e593e5;
+    rotate: 20deg;
+}
+
+#FooterBase{
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #f9f3eb21;
+
+}
+#FooterBase small{
+    color: #faebd7;
+    font-weight: 400;
+}

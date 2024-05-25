@@ -1,0 +1,323 @@
+#theFashionPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: linear-gradient(
+      to top,
+      #eea3fa57,
+      #1212126a,
+      rgba(248, 171, 109, 0.817)
+    ),
+    url("../../assets/backgroundbanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#theFashionPage h1 {
+  background: -webkit-linear-gradient(0deg,#a12ea1, #f1975b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+}
+
+#ourWorkBtns button {
+  width: 140px;
+  padding: 8px 2px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+#ourWorkBtns button:hover {
+  background-color: #5e145e;
+  color: antiquewhite;
+}
+#ourWorkBtns button.active {
+  background-color: #5e145e;
+  color: antiquewhite;
+}
+#ourWorkBtns {
+  margin-top: 15px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: gainsboro;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+#ourWorkBtns::-webkit-scrollbar {
+  display: none;
+}
+
+#ourWorkBtnsContainer {
+  overflow-x: auto;
+}
+
+#ourWorkBtns div {
+  margin-right: 10px;
+}
+
+#projectPageBox {
+  margin-bottom: 20px;
+}
+#projectCard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+#projectCardImg {
+  width: 100%;
+  height: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#projectCardImgB {
+  width: 100%;
+  height: 300px;
+  margin-right: 15px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#projectCardImgB Image {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#projectCardImg Image {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#projectPicCard {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+}
+#mainImg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#fashionPagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-link{
+  color: #5e145e;
+}
+#fashionCardBox{
+    margin-bottom: 50px;
+}
+#fashionCard {
+  box-shadow: 1px 2px 19px #faebd75b;
+  background-color: #ffffffef;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-top: 10px 0;
+  padding-bottom: 2px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+}
+#fashionCard img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: contain;
+  background-color: #ffffffef;
+  border-radius: 4px 4px 0px 0px;
+}
+#fashionCard h6 {
+    color: #5e145e;
+    font-weight: 700;
+    text-align: start;
+    margin-left: 5px;
+    font-family: "Montserrat", sans-serif;
+  }
+#fashionCard p {
+  color: rgb(81, 80, 80);
+  font-weight: 700;
+  text-align: start;
+  margin-left: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+#fashionCardBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 5px;
+}
+#fashionCardBtnA{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5e145e;
+    color: #faebd7;
+    font-weight: 700;
+}
+#fashionCardBtnA:hover{
+    color: aliceblue;
+}
+#fashionCardBtnB{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #5e145e;
+    font-weight: 700;
+}
+#fashionCardBtnB:hover{
+    text-decoration: underline;
+}
+
+
+#theFashionDetailePage{
+    background-color: white;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#theFashionDetailePageBox{
+    max-width: 1000px;
+   background-color: #faebd7ab;
+   padding: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+#fashionDetailsBack{
+  margin-bottom: 20px;
+}
+#fashionDetailsBack button{
+ border: none;
+ color: #5e145e;
+ font-weight: 700;
+ background-color: #d2cece2c;
+ border-radius: 4px;
+ padding: 2px 5px;
+}
+#fashionDetailsBack button:hover{
+text-decoration: underline;
+color: #a12ea1;
+}
+#theFashionDetailePageImg{
+    /* width: 300px; */
+    height: auto;
+}
+#theFashionDetailePageImg img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 4px;
+    filter: brightness(50%);
+}
+
+#fashionCard33 a{
+  padding: 12px 25px ;
+    border:none;
+    text-decoration: none;
+    background-image: linear-gradient(to right,#5e145e,#a12ea1, #5e145e );
+    color: #fcbc1a;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 4px;
+}
+#fashionCard33 h6{
+  margin-top: 5px;
+  font-weight: 700;
+  color: #5e145e;
+  font-family: "Montserrat", sans-serif;
+}
+#fashionCard33 p{
+  font-weight: 400;
+  color: gray;
+}
+.prev-arrow,
+.next-arrow {
+  width: 30px;
+  height: 30px;
+  background-color: purple;
+}
+
+.prev-arrow:before,
+.next-arrow:before {
+  content: "<";
+  font-size: 20px;
+  color: white;
+}
+
+.next-arrow:before {
+  content: ">";
+}
+.col-lg-4, .col-md-4 {
+  padding: 15px;
+}
+
+
+@media screen and (max-width: 300px) {
+  #ourWorkBtns {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background-color: gainsboro;
+    padding: 10px 10px;
+  }
+  #ourWorkBtns {
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+
+  #ourWorkBtns div {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+}
+
+
+@media screen and (max-width: 650px) {
+    #theFashionPage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        height: 50vh;
+        background: linear-gradient(
+            to top,
+            #eea3fa57,
+            #1212126a,
+            rgba(248, 171, 109, 0.817)
+          ),
+          url("../../assets/backgroundbanner.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #theFashionDetailePageImg{
+        width: 300px;
+        height: auto;
+    }
+}

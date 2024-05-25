@@ -1,0 +1,96 @@
+#theReupholsteryPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(
+        to top,
+        #eea3fa57,
+        #1212126a,
+        rgba(248, 171, 109, 0.817)
+      ),
+      url("../../assets/backgroundbanner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#theReupholsteryPage h2{
+    background: -webkit-linear-gradient(0deg,#a12ea1, #f1975b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+}
+
+#theReupholsteryCardImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#theReupholsteryCardImg img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+#theReupholsteryCardText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#theReupholsteryCardText h1{
+    color: #5e145e;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+#theReupholsteryCardText h5{
+    color: antiquewhite;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+#theReupholsteryCardBtn{
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background-image: linear-gradient(to right, #5e145e, #a12ea1, #5e145e);
+    color: #fcbc1a;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 750px) {
+    #theReupholsteryPage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+        background: linear-gradient(
+            to top,
+            #eea3fa57,
+            #1212126a,
+            rgba(248, 171, 109, 0.817)
+          ),
+          url("../../assets/backgroundbanner.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #theReupholsteryPage h2{
+        background: -webkit-linear-gradient(0deg,#a12ea1, #f1975b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: start;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+
+
+

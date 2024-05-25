@@ -1,0 +1,180 @@
+#theContactPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: linear-gradient(
+      to top,
+      #eea3fa57,
+      #1212126a,
+      rgba(248, 171, 109, 0.817)
+    ),
+    url("../../assets/backgroundbanner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#theContactPage h1{
+  background: -webkit-linear-gradient(0deg,#a12ea1, #f1975b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+}
+#contactInputBox{
+  margin-top: 20px;
+}
+#contactInputBox h4{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #fcbc1a;
+}
+#contactInput{
+  background-color: transparent;
+  border-bottom: 2px solid #ffffff61;
+  border-radius: 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+ 
+}
+
+#contactButton button{
+  padding: 12px 25px;
+  border: none;
+  background-image: linear-gradient(to right, #5e145e, #a12ea1, #5e145e);
+  color: #fcbc1a;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 4px;
+}
+#contactSocialBox{
+  margin-top: 20px;
+  background-color: #ffffff41;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border-radius: 4px;
+}
+#contactSocialBoxWrap{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  
+}
+#contactIcon{
+  color: antiquewhite;
+  font-size: 25px;
+margin-right: 10px;
+}
+#contactIconText{
+  color: antiquewhite;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+#contactUsMap{
+margin-top: 20px;
+}
+#contactUsMap h4{
+  color: #fcbc1a;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  }
+
+
+
+  
+#testimonyPageSection{
+  padding: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: linear-gradient(to right, #bacbd1, #ffffff73);
+}
+#testimonyPageSection h2 {
+  text-align: center;
+  color: #a12ea1;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+#testimonyCard {
+  width: 100%;
+  height: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+
+  border-radius: 20px;
+}
+#testimonyCardCardBox img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: brightness(80%);
+}
+#testimonyCardCardBox {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 2px 19px #47464645;
+  cursor: pointer;
+
+}
+#testimonyCardCardBox:hover {
+  background-color: #ffffff96;
+}
+#testimonyCardCardBox p{
+  font-weight: 700;
+  color: gray;
+}
+#testimonyCardCardBox small{
+font-style: italic;
+color: #5e145e;
+}
+
+
+
+
+  @media (max-width: 750px) {
+    #theContactPage{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+      padding-top: 100px;
+      background: linear-gradient(
+          to top,
+          #eea3fa57,
+          #1212126a,
+          rgba(248, 171, 109, 0.817)
+        ),
+        url("../../assets/backgroundbanner.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #contactInput{
+      background-color: transparent;
+      border: 2px solid  antiquewhite;;
+      border-radius: 0px;
+   border-radius: 4px;
+     
+    }
+  }
