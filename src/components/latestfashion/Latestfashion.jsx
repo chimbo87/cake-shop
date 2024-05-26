@@ -5,6 +5,7 @@ import homeaboutbanner from "../../assets/aboutbanner02.png";
 import homebanner01 from "../../assets/baker01.jpeg";
 import homebanner02 from "../../assets/baker02.jpeg";
 import homebanner03 from "../../assets/bakery04.jpeg";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { useNavigate } from "react-router-dom";
@@ -17,57 +18,92 @@ function Latestfashion() {
     <div id="partnerCard">
       <div id="partnerCardBox">
         <img src={homebanner01} alt="" />
-        <p>Vanila Cake</p>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
-        <button>view More</button>
+        <div id="partnerCardBoxDetails">
+          <p>Vanila Cake</p>
+          <small>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has
+          </small>
+          <button>View More  <MdOutlineKeyboardDoubleArrowRight /></button>
+        </div>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src={homebanner03} alt="" />
-        <p>Vanila Cake</p>
-        <button>view More</button>
+        <img src={homebanner03} alt="" />
+        <div id="partnerCardBoxDetails">
+          <p>Vanila Cake</p>
+          <small>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has
+          </small>
+          <button>View More  <MdOutlineKeyboardDoubleArrowRight /></button>
+        </div>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src={homebanner01} alt="" />
-        <p>Vanila Cake</p>
-        <button>view More</button>
+        <img src={homebanner01} alt="" />
+        <div id="partnerCardBoxDetails">
+          <p>Vanila Cake</p>
+          <small>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has
+          </small>
+          <button>View More  <MdOutlineKeyboardDoubleArrowRight /></button>
+        </div>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src={homebanner02} alt="" />
-        <p>Vanila Cake</p>
-        <button>view More</button>
+        <img src={homebanner02} alt="" />
+        <div id="partnerCardBoxDetails">
+          <p>Vanila Cake</p>
+          <small>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has
+          </small>
+          <button>View More  <MdOutlineKeyboardDoubleArrowRight /></button>
+        </div>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src={homebanner01} alt="" />
-        <p>Vanila Cake</p>
-        <button>view More</button>
+        <img src={homebanner01} alt="" />
+        <div id="partnerCardBoxDetails">
+          <p>Vanila Cake</p>
+          <small>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has
+          </small>
+          <button>View More  <MdOutlineKeyboardDoubleArrowRight /></button>
+        </div>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-      <img src={homebanner01} alt="" />
-        <p>Vanila Cake</p>
-        <button>view More</button>
+        <img src={homebanner01} alt="" />
+        <div id="partnerCardBoxDetails">
+          <p>Vanila Cake</p>
+          <small>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has
+          </small>
+          <button>View More  <MdOutlineKeyboardDoubleArrowRight /></button>
+        </div>
       </div>
     </div>,
     <div id="partnerCard">
       <div id="partnerCardBox">
-        <img src={homebanner} alt="" />
-        <p
-          class="viewMoreText"
-          onClick={() => {
-            navigate("/fashion");
-          }}
-        >
-          View more <GoArrowRight />
-        </p>
+        <img src={homebanner01} alt="" />
+        <div id="partnerCardBoxDetails">
+          <p>Vanila Cake</p>
+          <small>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has
+          </small>
+          <button>View More  <MdOutlineKeyboardDoubleArrowRight /></button>
+        </div>
       </div>
     </div>,
   ];
@@ -78,7 +114,7 @@ function Latestfashion() {
   return (
     <div id="theParterPageSection">
       <div className="container">
-        <h2>Our Latest Fashion</h2>
+        <h2>Our Category</h2>
         <AliceCarousel
           mouseTracking
           items={items}

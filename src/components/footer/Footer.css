@@ -2,7 +2,7 @@
     padding-top: 20px;
 }
 #FooterCardA{
-    background-image: linear-gradient(to right, #a12ea1, #e593e5);
+    background-image: linear-gradient(to right, #674c4c, #674c4c4c);
     padding: 50px 5px;
 }
 #FooterCardA h4{
@@ -26,6 +26,7 @@
 #FooterCardA p{
     margin-top: 25px;
     margin-left: 20px;
+    font-size: 12px;
    color: #faebd7;
    font-weight: 400;
   
@@ -39,7 +40,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: #fcbc1a;
+    color: #674c4c;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
@@ -48,14 +49,14 @@
     margin-left: 10px;
     border-radius: 4pc;
     height: 4px;
-    background-image: linear-gradient(to right, #ad58f8, #f4beaa);
+    background-image: linear-gradient(to right, #674c4c, #f4beaa);
     display: block;
   
 }
 #FooterCardB p{
     margin-top: 25px;
     margin-left: 20px;
-   color: #faebd7;
+   color:gray;
    font-weight: 400;
   
 }
@@ -68,12 +69,12 @@
 }
 #FooterCardBI{
     margin: 0px 10px;
-    color: #a12ea1;
+    color: #674c4c;
     font-size: 22px;
     cursor: pointer;
 }
 #FooterCardBI:hover{
-    color: #e593e5;
+    color: #453b3b;
     rotate: 20deg;
 }
 
@@ -83,10 +84,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid #f9f3eb21;
+    border-top: 1px solid #2e2d2b74;
 
 }
 #FooterBase small{
-    color: #faebd7;
+    color: #674c4c;
     font-weight: 400;
+}
+#FooterCardADetails{
+    display: flex;
+    align-items: start;
+    justify-content: start;
 }

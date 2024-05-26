@@ -27,7 +27,7 @@
   font-size: 18px;
   border: none;
   font-weight: 700;
-  color:#eab18b;
+  color:#faebd7;
   background-color: #674c4c;
 }
 #reviewCard {
@@ -81,26 +81,26 @@
   align-items: center;
   justify-content: center;
   margin-right: 15px;
-  border: 1px solid #fcbc1a;
+  border: 1px solid #faebd7;
   padding: 8px 8px;
   border-radius: 50%;
 }
 #homePageWrapContactIcon {
   font-size: 22px;
-  color: #fcbc1a;
+  color: #faebd7;
 }
 #homePageWrapContact p {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fcbc1a;
+  color: #faebd7;
   font-weight: 400;
 }
 #homeAboutContainer {
   margin-top: 30px;
 }
 #homeAboutContainerCard h4 {
-  color: #808080;
+  color: #674c4c;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
@@ -113,8 +113,8 @@
 #homeAboutContainerCard button {
   padding: 12px 25px;
   border: none;
-  background-image: linear-gradient(to right, #5e145e, #a12ea1, #5e145e);
-  color: #fcbc1a;
+  background-image: linear-gradient(to right, #674c4c,#674c4c);
+  color: #faebd7;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   border-radius: 4px;
