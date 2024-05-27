@@ -23,7 +23,7 @@ function Fashiondetails() {
       <div className="container-fluid" id="theFashionDetailePage">
         <div id="theFashionDetailePageBox">
           <div class="row">
-            <div class="col-lg-6 col-md-4">
+            <div class="col-lg-12 col-md-4">
               <div id="theFashionDetailePageImg">
                 <Carousel
                   arrows
@@ -40,15 +40,15 @@ function Fashiondetails() {
                 </Carousel>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4">
+            <div class="col-lg-12 col-md-4">
               <div id="fashionCard33">
-                <h6>{title}</h6>
+             <div>   <h6>{title}</h6>
                 <p>
                   <b>R{price.toFixed(2)}</b>
                 </p>
                 <h6>Description</h6>
                 <p>{description}</p>
-                <a href="https://wa.me/+27659872956">Order Now</a>
+                <a href="https://wa.me/+27659872956">Order Now</a></div>
               </div>
             </div>
           </div>

@@ -2,8 +2,8 @@ import React from "react";
 import "./Home.css";
 
 import homeaboutbanner from "../../assets/backgroundbanner.jpg";
-import homebanner01 from "../../assets/baker01.jpeg";
-import homebanner02 from "../../assets/baker02.jpeg";
+import homebanner01 from "../../assets/baker03.jpeg";
+import homebanner02 from "../../assets/baker06.jpeg";
 import homebanner03 from "../../assets/bakery04.jpeg";
 import { SlLocationPin } from "react-icons/sl";
 import { SlCalender } from "react-icons/sl";
@@ -81,9 +81,9 @@ function Home() {
                 <SlLocationPin id="homePageWrapContactIcon" />
               </span>
               <p>
-                1 Plantation Road
+                1 Planet Mars
                 <br />
-                Eastleigh Edenvale
+                Jupiter Mars
               </p>
             </div>
           </div>

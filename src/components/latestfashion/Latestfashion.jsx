@@ -19,7 +19,8 @@ function Latestfashion() {
       <div id="partnerCardBox">
         <img src={homebanner01} alt="" />
         <div id="partnerCardBoxDetails">
-          <p>Vanila Cake</p>
+          <p>Wedding Cake <i>~Vanila flavor</i></p>
+      
           <small>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has

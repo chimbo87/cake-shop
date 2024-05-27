@@ -110,7 +110,7 @@ function Navbar() {
           </ul>
           <div id="navBtn">
             <a href="https://wa.me/+27659872956" target="_blank">
-              Order Now
+            Contact Us
             </a>
           </div>
         </div>
