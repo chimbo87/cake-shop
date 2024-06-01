@@ -76,23 +76,10 @@ function Navbar() {
                 href="#"
                 id="navLink"
               >
-                Fashion
+                Shop
               </a>
             </li>
-            <li
-              className="nav-item"
-              id="navList"
-              onClick={() => handleNavLinkClick("/reupholstery")}
-            >
-              <a
-                className="nav-link active"
-                aria-current="page"
-                href="#"
-                id="navLink"
-              >
-                Reupholstery
-              </a>
-            </li>
+          
             <li
               className="nav-item"
               id="navList"

@@ -17,7 +17,9 @@ function Fashion() {
       setProducts(Images);
     } else {
       const selectedCategory = menuItems[buttonId - 1];
-      const filteredProducts = Images.filter((product) => product.title === selectedCategory);
+      const filteredProducts = Images.filter(
+        (product) => product.title === selectedCategory
+      );
       setProducts(filteredProducts);
     }
   };
@@ -25,8 +27,9 @@ function Fashion() {
   return (
     <>
       <div id="theFashionPage">
-        <h1>Fashion</h1>
+        <h1>Cake Shop</h1>
       </div>
+
       <div className="container" id="ourWorkBtnsBox">
         <div id="ourWorkBtns">
           {/* Map through menuItems to create buttons */}
@@ -42,6 +45,7 @@ function Fashion() {
           ))}
         </div>
       </div>
+
       <div className="container" id="fashionCardBox">
         <div className="row">
           {products.map((product) => (
@@ -91,7 +95,7 @@ function Fashion() {
                 3
               </a>
             </li>
-            <li className="page-item">  
+            <li className="page-item">
               <a className="page-link" href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
               </a>

@@ -60,7 +60,7 @@ function Footer() {
         </div>
       </div>
       <div className="container" id="FooterBase">
-        <small> &copy; Tasmer 2024. Crafted by CHIMBO</small>
+        <small> &copy; Cake-Shop 2024. Crafted by CHIMBO</small>
       </div>
     </div>
   );

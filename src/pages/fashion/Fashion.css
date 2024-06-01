@@ -2,20 +2,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 60vh;
   background: linear-gradient(
       to top,
       #eea3fa57,
       #1212126a,
       rgba(248, 171, 109, 0.817)
     ),
-    url("../../assets/backgroundbanner.jpg");
+    url("../../assets/banner.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #theFashionPage h1 {
-  background: -webkit-linear-gradient(0deg, #a12ea1, #f1975b);
+  background: -webkit-linear-gradient(0deg, antiquewhite, #f1975b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 50px;
@@ -27,15 +27,16 @@
 #ourWorkBtns button {
   width: 140px;
   padding: 8px 2px;
-  border: 1px solid grey;
+  border: 1px solid #80808068;
   border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.66);
 }
 #ourWorkBtns button:hover {
-  background-color: #5e145e;
+  background-color: #674c4c;
   color: antiquewhite;
 }
 #ourWorkBtns button.active {
-  background-color: #5e145e;
+  background-color: #674c4c;
   color: antiquewhite;
 }
 #ourWorkBtns {
@@ -319,7 +320,7 @@
         #1212126a,
         rgba(248, 171, 109, 0.817)
       ),
-      url("../../assets/backgroundbanner.jpg");
+      url("../../assets/banner.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
